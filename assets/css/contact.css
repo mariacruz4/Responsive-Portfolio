@@ -147,9 +147,7 @@ footer {
     background: #666666;
 }
 @media screen and (max-width: 980px) {
-    .name{
-       margin-right:20px;
-    }
+    
     #btn-group{
       width:100%;
     }
