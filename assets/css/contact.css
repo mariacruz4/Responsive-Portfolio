@@ -80,12 +80,12 @@ header{
   margin-bottom:40px;
   background: #cccccc;
 }
-.general{
-    box-sizing: border-box;
+.maincontent{
     position: relative;
-    height:575px;
+    height:775px;
     width:700px;
-    margin-left:340px;
+    box-sizing: border-box;
+    margin:40px auto;
     background: white;
 }
 body{
@@ -146,3 +146,64 @@ footer {
     padding: 10px;
     background: #666666;
 }
+@media screen and (max-width: 980px) {
+    .name{
+       margin-right:20px;
+    }
+    #btn-group{
+      width:100%;
+    }
+    .maincontent{
+      width:60%;
+      height: 60%;
+      margin-bottom: 40%;
+    }
+    footer {
+      position: static;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header{
+      position: static;
+    }
+    .name{
+      width: 40%;
+      margin-left: -1%;
+    }
+    #btn-group{
+      width:100%;
+    }
+    .maincontent{
+      width: 95%;
+      height:95%;
+      margin-bottom: 40%;
+    }
+    footer {
+      position: static;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    header{
+      position: static;
+    }
+    .name{
+      width: 600px;
+      margin-left: -9%;
+    }
+    #btn-group{
+      width:150%;
+      margin-top: 40px;
+      margin-left: -80%;
+    }
+    .maincontent{
+      width:80%;
+      height: 80%;
+    }
+    footer {
+      position: static;
+    }
+  }
+  
+  

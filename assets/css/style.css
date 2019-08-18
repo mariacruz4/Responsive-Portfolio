@@ -19,7 +19,7 @@ strong{
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 14%;
+    margin-left: 13%;
     margin-bottom: -30px;
     margin-top: -30px;
     padding: 20px;
@@ -28,7 +28,7 @@ strong{
     box-sizing: border-box;
 }
 #btn-group{
-    margin-right:9.5%;
+    margin-right:10.5%; 
 }
 #left {
     
@@ -95,12 +95,12 @@ strong{
       margin-right: 20px;
       float: left;
   }
-  .general{
+  .maincontent{
     box-sizing: border-box;
     position: relative;
     height: 475px;
     width:960px;
-    margin-left:210px;
+    margin:40px auto;
     text-align: center;
     background: white;
   }
@@ -118,4 +118,61 @@ footer {
     padding: 10px;
     background: #666666;
   }
+  @media screen and (max-width: 980px) {
+    #btn-group{
+      width:100%;
+    }
+    .maincontent{
+      width:80%;
+      height: 80%;
+      margin-bottom: 40%;
+    }
+    footer {
+      position: static;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header{
+      position: static;
+    }
+    .name{
+      width: 40%;
+      margin-left: -1%;
+    }
+    #btn-group{
+      width:100%;
+    }
+    .maincontent{
+      width: 95%;
+      height:95%;
+      margin-bottom: 40%;
+    }
+    footer {
+      position: static;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    header{
+      position: static;
+    }
+    .name{
+      width: 600px;
+      margin-left: -9%;
+    }
+    #btn-group{
+      width:150%;
+      margin-top: 40px;
+      margin-left: -80%;
+    }
+    .maincontent{
+      width:80%;
+      height: 80%;
+    }
+    footer {
+      position: static;
+    }
+  }
+  
   

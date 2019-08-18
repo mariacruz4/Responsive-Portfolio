@@ -17,7 +17,7 @@ header{
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 24.15%;
+    margin-left: 23%;
     margin-bottom: -30px;
     margin-top: -30px;
     padding: 20px;
@@ -26,7 +26,7 @@ header{
     box-sizing: border-box;
 }
 #btn-group{
-    margin-right:20%;
+    margin-right:21%;
 }
 #left {
     
@@ -80,11 +80,12 @@ header{
   margin-bottom:40px;
   background: #cccccc;
 }
-.general{
+.maincontent{
     position: relative;
     height:775px;
     width:700px;
-    margin-left:340px;
+    box-sizing: border-box;
+    margin:40px auto;
     background: white;
   }
   body{
@@ -107,7 +108,7 @@ header{
     font-size: 20px;
     text-align:center;
     padding:8px;
-    width: 28.50%;
+    width: 28.65%;
     left: 20px;
     top: 250px;
 }
@@ -125,7 +126,7 @@ header{
     font-size: 20px;
     text-align:center;
     padding:8px;
-    width: 28.5%;
+    width: 28.65%;
     left: 264px;
     top: 250px;
   }
@@ -147,7 +148,7 @@ header{
     font-size: 20px;
     text-align:center;
     padding:8px;
-    width: 28.5%;
+    width: 28.65%;
     left: 20px;
     top: 470px;
   }
@@ -166,7 +167,7 @@ header{
     font-size: 20px;
     text-align:center;
     padding:8px;
-    width: 28.5%;
+    width: 28.65%;
     left: 264px;
     top: 470px;
   }
@@ -188,7 +189,7 @@ header{
     font-size: 20px;
     text-align:center;
     padding:8px;
-    width: 28.5%;
+    width: 28.65%;
     left: 20px;
     bottom:50px;
   } 
@@ -200,4 +201,102 @@ footer {
     border-top: #4aaaa5 solid 3px;
     padding: 10px;
     background: #666666;
+}
+@media screen and (max-width: 980px){ 
+  #btn-group{
+    width:100%;
+  }
+  .maincontent{
+    width:80%;
+    height: 80%;
+    margin-bottom: 40%;
+  }
+  footer {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    position: static;
+  }
+  .name{
+    width: 35%;
+    margin-left: 14%;
+  }
+  
+  #btn-group{
+    width:100%;
+    margin-left:-13%;
+  }
+  .maincontent{
+    width: 67%;
+    height:100%;
+    margin-bottom: 20px;
+  }
+  footer {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 640px){
+  header{
+    position: static;
+  }
+  #img1{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #img2{
+    width: 90%;
+  }
+  #img3{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #img4{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #img5{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .name{
+    width: 600px;
+    margin-left: -17%;
+  }
+  #btn-group{
+    width:200%;
+    margin-top: 40px;
+    margin-left: -119%;
+  }
+  #rpg{
+    width:90%;
+  }
+  #airplane{
+    top:38%;
+    width:90%;
+  }
+  #car{
+    top:57%;
+    left:5%;
+    width:90.25%;
+  }
+  #hangman{
+    top:73%;
+    left:5%;
+    width:90.25%;
+  }
+  #book{
+    bottom: 3%;
+    width:90%
+  }
+  .maincontent{
+    width:80%;
+    height: 80%;
+  }
+  footer {
+    position: static;
+  }
 }
