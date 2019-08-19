@@ -147,9 +147,13 @@ footer {
     background: #666666;
 }
 @media screen and (max-width: 980px) {
-    
+    .name{
+      width: 30%;
+      margin-left:8%;
+    }
     #btn-group{
       width:100%;
+      margin-left: -51px;
     }
     .maincontent{
       width:60%;
