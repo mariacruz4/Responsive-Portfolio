@@ -17,7 +17,7 @@ header{
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 24.15%;
+    margin-left: 23%;
     margin-bottom: -30px;
     margin-top: -30px;
     padding: 20px;
@@ -26,7 +26,7 @@ header{
     box-sizing: border-box;
 }
 #btn-group{
-    margin-right:20%;
+    margin-right:21%;
 }
 #left {
     
